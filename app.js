@@ -2,7 +2,7 @@
 const searchicon1 = document.querySelector('#searchicon1');
 const srchicon1 = document.querySelector('#srchicon1');
 const search1 = document.querySelector('#searchinput1');
-
+ 
 // Afficher le champ de recherche et cacher l'icône lorsqu'on clique sur l'icône de recherche
 searchicon1.addEventListener('click', function(){
     search1.style.display = 'flex';
