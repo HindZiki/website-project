@@ -12,4 +12,4 @@ Ouvrez votre navigateur et accédez à `http://file:///C:/Users/HP/OneDrive/Bure
 
 ## Capture d'écran
 
-![Capture d'écran] (/fichier/Images/capture1.png)
+![Capture d'écran](/fichier/Images/capture1.png)
