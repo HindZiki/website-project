@@ -1,38 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Lien vers le fichier CSS personnalisé -->
     <link rel="stylesheet" href="style.css">
+    <!-- Lien vers les icônes Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon du site -->
     <link rel="shortcut icon" href="./icone/icone2.ico" type="image/x-icone">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Vue responsive pour s'adapter aux différentes tailles d'écran -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recettes</title>
 </head>
 
 <body>
     
+    <!-- Navigation principale -->
     <nav>
         <a href="index.html">Home</a>
         <a href="recettes.html">Recettes</a>
         <a href="menu.html">Food Menu</a>
         <a href="reservation.html">Reserve Now</a>
+        <!-- Logo du site -->
         <div class="logo">
-            <img src="./logo/logo 2.png" alt="">
+            <img src="./logo/logo 2.png" alt="Logo du restaurant">
         </div>
     </nav>
 
+    <!-- Titre principal de la page -->
      <div class="titre-principal">
         <h3>Une cuisine 100% fait-maison</h3>
      </div>
     
     <main>
+        <!-- Section contenant les différentes recettes sous forme de cases -->
         <div class="recette-cases">
+            <!-- Première case de recette, avec lien vers la page correspondante -->
             <div class="recette-case" onclick="window.location.href='recette1.html'">
                 <img src="./recette 1/gratin jonbom.jpg" alt="Photo de la recette 1">
                 <h2>Gratin de pâtes jambon-fromage à l'italienne</h2>
             </div>
+            <!-- Deuxième case de recette -->
             <div class="recette-case" onclick="window.location.href='recette2.html'">
                 <img src="./recette 1/puré.jpg" alt="Photo de la recette 2">
                 <h2>Shepherd's pie: the best recipe</h2>
@@ -40,15 +49,18 @@
             <!-- Ajoute d'autres cases pour chaque recette -->
         </div>
         
+        <!-- Détails d'une recette (vide ici, peut être utilisé pour afficher les infos en JS) -->
         <div id="recette-detail" class="recette-detail">
             <!-- Les détails de la recette seront affichés ici -->
         </div>
     </main>
     
+    <!-- Pied de page du site -->
     <footer>
         <p>&copy; 2024 Mon Restaurant</p>
     </footer>
 
-    <script src="scripts.js"></script> <!-- Lien vers ton fichier JavaScript -->
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="scripts.js"></script>
 </body>
 </html>
