@@ -11,5 +11,5 @@ Ce projet est une application web permettant de gérer des recettes de cuisine a
 Ouvrez votre navigateur et accédez à `http://file:///C:/Users/HP/OneDrive/Bureau/site%20des%20recette%20de%20cuisine/index.html
 
 ## Capture d'écran
-(./Téléchargements/Capture d’écran 2024-09-13 082720)
 
+![Capture d'écra](/fichier/Images/capture1.png)
